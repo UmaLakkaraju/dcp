@@ -49,11 +49,31 @@ public class DCP03 {
 		root.right=node3;
 		node3.left=node4;
 		node3.right=node5;
+		
 		DCP03 dcp03=new DCP03();
-		System.out.println(dcp03.serialize(root));
+	     System.out.print("Input  :");
+		printNode(root);
+		 System.out.println();
 		String serializedString=dcp03.serialize(root);
-		dcp03.deserialize(serializedString);
+		System.out.println("serialized string :"+serializedString);
+		TreeNode resultNode=dcp03.deserialize(serializedString);
+		System.out.print("deserialized result :");
+		 printNode(resultNode);
+		 System.out.println();
 		}
+
+
+	private static void printNode(TreeNode resultNode) {
+		
+		if(resultNode==null){
+			System.out.print("null,");
+		}else{
+			System.out.print(resultNode.val+",");
+			printNode(resultNode.left);
+			printNode(resultNode.right);
+		}
+		
+	}
 
 }
 class TreeNode {
