@@ -1,4 +1,4 @@
-package DCP19;
+package dcp.DCP19;
 
 import java.util.Scanner;
 
