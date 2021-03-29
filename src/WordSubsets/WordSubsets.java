@@ -1,4 +1,4 @@
-package dcp;
+package WordSubsets;
 
 import java.util.ArrayList;
 import java.util.List;

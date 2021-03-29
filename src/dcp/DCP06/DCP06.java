@@ -1,4 +1,4 @@
-package dcp;
+package dcp.DCP06;
 
 public class DCP06 {
 

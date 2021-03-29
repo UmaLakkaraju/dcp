@@ -1,4 +1,4 @@
-package dcp;
+package dcp.DCP04;
 
 public class DCP04 {
 	 public int firstMissingPositive(int[] nums) {

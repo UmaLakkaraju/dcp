@@ -1,4 +1,4 @@
-package dcp;
+package dcp.DCP05;
 
 public class DCP05 {
 

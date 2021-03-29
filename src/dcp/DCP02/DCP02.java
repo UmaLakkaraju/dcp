@@ -1,4 +1,4 @@
-package dcp;
+package dcp.DCP02;
 
 public class DCP02 {
    public int[] productExceptSelf(int[] nums){
